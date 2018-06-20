@@ -1,0 +1,17 @@
+class MovieDetails:
+    def __init__(self,mname,artistname,yearofrelease,rating):
+        self.mname=mname
+        self.artistname=artistname
+        self.yearofrelease=yearofrelease
+        self.rating=rating
+
+    def display(self):
+        print ('Mname:{},Artistname:{},yearofrelease:{},rating:{},'.format(self.mname,self.artistname,self.yearofrelease,self.rating))
+    
+
+    def update(self,artistname):
+        self.aristname=artistname
+s1=MovieDetails('3 idiots','Aamir khan',2009,8.5)
+s1.display()
+s1=MovieDetails('3 idiots','Karena Kapoor',2009,8.5)
+s1.display()

@@ -1,0 +1,12 @@
+class Temprature:
+   
+    def convertFahrenhiet(self,celsius):
+        print((celsius*(9/5))+32)
+    def convertCelsius(self,farenhite):
+        print((farenhite-32)*(5/9))
+s1=Temprature()
+s1.convertFahrenhiet(260)
+
+
+s2=Temprature()
+s2.convertCelsius(68)

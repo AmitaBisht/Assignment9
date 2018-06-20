@@ -1,0 +1,23 @@
+class Expenditure:
+    
+    def __init__(self,expenditure,saving):
+        self.expenditure=expenditure
+        self.saving=saving
+        
+   
+          
+    def display(self):
+        print ('Expenditure:{},Saving:{},'.format(self.expenditure,self.saving))
+            
+    def totalsalary(self):
+        print('total salary :{},'.format(self.expenditure+self.saving))
+    def salary(self):
+        print(s2.totalsalary)
+    
+  
+s1=Expenditure(20000,5000)
+s1.display()
+s2=Expenditure(20000,5000)
+s2.totalsalary()
+s3=Expenditure(20000,5000)
+s3.totalsalary()
